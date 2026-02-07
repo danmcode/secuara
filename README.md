@@ -353,3 +353,43 @@ Funciones principales:
 
 Objetivo: Mejorar la prevención del delito y optimizar la planeación de recorridos mediante información compartida e inteligente.
 
+------
+
+## 💼 Modelo de Negocio (SaaS)
+
+Secuara opera bajo un modelo **Software como Servicio (SaaS)**, enfocado
+en el mercado Latinoamericano, iniciando en Colombia.
+
+### Esquema de Cobro
+
+El costo del servicio se define según el número de **usuarios activos**
+registrados en la plataforma:
+
+Incluye: - Residentes - Empleados - Guardas - Administrativos -
+Colaboradores
+
+### Planes Referenciales LATAM
+
+  Plan          Usuarios    Precio USD/Mes
+  ------------- ----------- ----------------
+  Básico        Hasta 100   30 -- 50
+  Profesional   Hasta 500   80 -- 120
+  Empresarial   Ilimitado   200+
+
+### Add-ons
+
+-   Inteligencia Artificial
+-   Mapas de Riesgo
+-   Reconocimiento Facial
+-   Integraciones Avanzadas
+
+### Ventajas
+
+-   Escalable
+-   Predecible
+-   Transparente
+-   Adaptado a LATAM
+
+------------------------------------------------------------------------
+
+© 2026 Secuara - Plataforma de Seguridad Inteligente

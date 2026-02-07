@@ -110,7 +110,8 @@ Objetivo MVP: Brindar información clave para administración y control.
 ### ⚙️ 6. Módulo de Configuración del Sistema
 
 - Centraliza los parámetros generales.
-- Funciones principales:
+Funciones principales:
+- Creacción de estructura, de Torres -> apartamentos, Lostes -> Casas, Bloques -> Oficinas etc.
 - Definición de horarios.
 - Reglas de acceso.
 - Gestión de dispositivos.
@@ -143,10 +144,25 @@ Funciones principales:
 - Consultar historial.
 - Actualizar datos.
 - Recibir notificaciones.
-
+- 
 Objetivo MVP: Dar autonomía al usuario sin sobrecargar al administrador.
 
-### 🔌 9. Módulo de Integración (Opcional MVP)
+### 📝 9. Módulo de Minutas y Novedades
+
+Permite al personal de portería o seguridad registrar eventos relevantes durante su turno.
+
+Funciones principales:
+
+- Registro de novedades diarias.
+- Bitácora de turnos.
+- Registro de incidentes, visitas especiales y situaciones anómalas.
+- Adjuntar evidencias (fotos o documentos).
+- Consulta histórica por fecha y responsable.
+
+Objetivo MVP: Centralizar la información operativa y mejorar la trazabilidad de eventos.
+
+
+### 🔌 10. Módulo de Integración (Opcional MVP)
 
 Permite conectar el sistema con hardware o terceros.
 
@@ -159,6 +175,34 @@ Funciones principales:
 Exportación de datos.
 
 Objetivo MVP: Preparar el sistema para escalamiento futuro.
+
+### 📦 11. Módulo de Correspondencia
+
+Permite gestionar la recepción, entrega y control de paquetes, cartas y encomiendas.
+
+Funciones principales:
+
+- Registro de correspondencia entrante.
+- Asociación con residente o empresa.
+- Notificación automática al destinatario.
+- Registro de entrega con firma o confirmación.
+- Historial de correspondencia.
+
+Objetivo MVP: Reducir pérdidas y mejorar el control de paquetes.
+
+### ✅ 12. Módulo de Tareas y Supervisión
+
+Permite al administrador asignar y supervisar actividades del personal de seguridad.
+
+Funciones principales:
+
+- Creación de tareas para guardas y ronderos.
+- Asignación por turno o zona.
+- Definición de horarios y prioridades.
+- Confirmación de cumplimiento.
+- Reporte de tareas realizadas.
+
+Objetivo MVP: Mejorar la operación y supervisión del personal en campo.
 
 ### 🔐 Seguridad
 
@@ -184,3 +228,128 @@ Autenticación con JWT/OAuth
 
 - Docker
 - AWS
+
+## 🚀 Escalamiento y Expansión del Software
+
+Esta sección reúne ideas estratégicas para convertir el sistema en una plataforma integral y transversal para empresas de administración, seguridad y organizaciones.
+
+### 1. 📞 Citofonía Digital Integrada
+
+- Integración con el sistema de control de accesos.
+- Comunicación directa con residentes desde portería o app.
+- Apertura remota de accesos.
+- Registro automático de llamadas.
+
+### 2. 👤 Conexión con Reconocimiento Facial
+
+- Integración con cámaras inteligentes.
+- Identificación automática de personas autorizadas.
+- Alertas por rostros no registrados.
+- Mejora de tiempos de ingreso.
+
+### 3. 🚗 Reconocimiento de Placas Vehiculares
+
+- Lectura automática de placas.
+- Validación en tiempo real.
+- Control de parqueaderos sin contacto.
+- Integración con barreras vehiculares.
+
+### 4. 🏢 Gestión Administrativa de Activos
+
+Módulos para la administración transversal de recursos físicos y financieros.
+
+- Gestión de activos (tanques, plantas, equipos, energía).
+- Control de mantenimientos.
+- Administración de proveedores.
+- Gestión de contratos.
+- Manejo de facturas y pagos.
+- Reportes financieros.
+
+Objetivo: Convertir el sistema en una plataforma integral para copropiedades, empresas y firmas de seguridad.
+
+### 5. 🌐 Plataforma Multientidad
+
+Administración centralizada de múltiples sedes.
+
+- Panel para empresas administradoras.
+- Gestión de varios clientes desde una sola cuenta.
+- Roles empresariales avanzados.
+
+### 6. 📊 Analítica Avanzada y BI
+
+- Dashboards ejecutivos.
+- Indicadores de desempeño.
+- Predicción de riesgos.
+- Optimización operativa.
+
+### 7. 🤖 Automatización e Inteligencia Artificial
+
+- Detección automática de anomalías.
+- Sugerencias de seguridad.
+- Análisis de patrones.
+
+Optimización de recursos.
+
+### 8. 🔗 Ecosistema de Integraciones
+
+- Marketplace de integraciones.
+- Conexión con ERPs.
+- APIs para terceros.
+- Integración con sistemas gubernamentales (según normativa).
+
+### 9. 🛡️ Programación Inteligente de Guardas con IA
+
+Módulo avanzado para la gestión dinámica del personal de seguridad mediante inteligencia artificial.
+
+Funciones principales:
+
+- Programación automática de turnos.
+- Monitoreo de ausencias en tiempo real.
+- Identificación del guarda disponible más cercano.
+- Optimización de tiempos de respuesta.
+- Reasignación automática de puestos.
+- Consideración de descansos, horas extra y cargas laborales.
+
+Objetivo: Garantizar continuidad del servicio y máxima cobertura de seguridad con mínima intervención humana.
+
+**Por qué este módulo es clave para vender**
+
+Con esto puedes decirle a una empresa de seguridad:
+
+“Nuestro sistema reduce fallas por ausencias y optimiza automáticamente su operación”.
+
+Eso significa:
+
+✅ Menos supervisores
+✅ Menos errores humanos
+✅ Menos sanciones por incumplimiento
+✅ Mejor servicio al cliente
+
+= Más dinero para ellos → más fácil vender.
+
+A futuro, este módulo puede evolucionar a:
+
+🚀 Nivel avanzado:
+
+- Predicción de ausencias
+- Fatiga laboral
+- Riesgo de fallas
+- Recomendaciones de rotación
+- Optimización por zonas críticas
+Se vuelve casi un Waze de guardas
+
+### 10. 🗺️ Mapa Inteligente de Riesgos y Zonas Críticas
+
+Módulo colaborativo basado en inteligencia artificial para identificar y visualizar zonas con alta incidencia delictiva o riesgo operativo.
+
+Funciones principales:
+
+- Mapa georreferenciado de incidentes.
+- Identificación de focos de riesgo.
+- Análisis predictivo de zonas peligrosas.
+- Integración con reportes de empresas afiliadas.
+- Alertas preventivas para rondas y patrullajes.
+- Historial por zona y periodo.
+
+Objetivo: Mejorar la prevención del delito y optimizar la planeación de recorridos mediante información compartida e inteligente.
+

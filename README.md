@@ -6,16 +6,34 @@ El sistema permite mejorar la seguridad, optimizar procesos administrativos y ce
 
 ---
 
-🎯 Objetivos del Proyecto
+## 🎯 Objetivos del Proyecto
 
-Garantizar la seguridad de los residentes, empleados y visitantes.
+- Garantizar la seguridad de los residentes, empleados y visitantes.
+- Automatizar el registro de accesos.
+- Reducir errores humanos en el control manual.
+- Facilitar la administración de permisos.
+- Generar reportes y estadísticas.
+- Integrar dispositivos físicos y software.
 
-Automatizar el registro de accesos.
+## 🏗️ Arquitectura del Sistema
 
-Reducir errores humanos en el control manual.
+El sistema está compuesto por tres capas principales:
 
-Facilitar la administración de permisos.
+### 1️⃣ Capa de Presentación
 
-Generar reportes y estadísticas.
+- Aplicación Web
+- Aplicación Móvil
+- Panel Administrativo
 
-Integrar dispositivos físicos y software.
+### 2️⃣ Capa de Lógica de Negocio
+
+API REST
+- Servicios de autenticación
+- Gestión de permisos
+- Procesamiento de accesos
+
+### 3️⃣ Capa de Datos
+
+- Base de datos relacional
+- Almacenamiento de logs
+- Backups automáticos

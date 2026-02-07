@@ -370,8 +370,8 @@ Colaboradores
 
 ### Planes Referenciales LATAM
 
-  Plan          |Usuarios   | Precio USD/Mes
-  ------------- ----------- ----------------
+  Plan|Usuarios|Precio USD/Mes
+  -|-|-
   Básico        |Hasta 100   |30 -- 50
   Profesional   |Hasta 500   |80 -- 120
   Empresarial   |Ilimitado   |200+
